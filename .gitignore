@@ -2,3 +2,7 @@
 .env
 __pycache__
 .history
+pgadmin/
+pgadmin_sessions/
+profile_photos/
+logs/

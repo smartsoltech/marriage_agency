@@ -1,0 +1,309 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-01 08:15+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+#: communications/models.py:10
+msgid "Call ID"
+msgstr ""
+
+#: communications/models.py:11
+msgid "Start Time"
+msgstr ""
+
+#: communications/models.py:12
+msgid "End Time"
+msgstr ""
+
+#: communications/models.py:13
+msgid "Status"
+msgstr ""
+
+#: communications/models.py:14
+msgid "Initiated"
+msgstr ""
+
+#: communications/models.py:15
+msgid "Ongoing"
+msgstr ""
+
+#: communications/models.py:16
+msgid "Completed"
+msgstr ""
+
+#: communications/models.py:17
+msgid "Cancelled"
+msgstr ""
+
+#: communications/views.py:32
+msgid "You are not authorized to join this video call."
+msgstr ""
+
+#: messaging/forms.py:12
+msgid "Message"
+msgstr ""
+
+#: messaging/forms.py:15
+msgid "Enter your message"
+msgstr ""
+
+#: messaging/models.py:10
+msgid "Message Text"
+msgstr ""
+
+#: messaging/models.py:12
+msgid "Read"
+msgstr ""
+
+#: messaging/views.py:26 messaging/views.py:47
+msgid "Your message has been sent!"
+msgstr ""
+
+#: payments/models.py:19
+msgid "Plan Name"
+msgstr ""
+
+#: payments/models.py:20 payments/models.py:29
+msgid "Description"
+msgstr ""
+
+#: payments/models.py:21 payments/models.py:30
+msgid "Price"
+msgstr ""
+
+#: payments/models.py:22
+msgid "Duration (days)"
+msgstr ""
+
+#: payments/models.py:28
+msgid "Service Name"
+msgstr ""
+
+#: payments/models.py:48
+msgid "Quantity"
+msgstr ""
+
+#: payments/views.py:50
+msgid "Payment was successful!"
+msgstr ""
+
+#: payments/views.py:55
+msgid "Payment was cancelled."
+msgstr ""
+
+#: payments/views.py:66
+msgid "Additional service purchased successfully!"
+msgstr ""
+
+#: profiles/forms.py:10 profiles/forms.py:36 profiles/models.py:24
+msgid "Email"
+msgstr ""
+
+#: profiles/forms.py:11 profiles/forms.py:35 profiles/models.py:21
+msgid "Phone Number"
+msgstr ""
+
+#: profiles/forms.py:12 profiles/forms.py:29 profiles/models.py:15
+msgid "User Type"
+msgstr ""
+
+#: profiles/forms.py:30 profiles/models.py:16
+msgid "First Name"
+msgstr ""
+
+#: profiles/forms.py:31 profiles/models.py:17
+msgid "Last Name"
+msgstr ""
+
+#: profiles/forms.py:32 profiles/models.py:18
+msgid "Date of Birth"
+msgstr ""
+
+#: profiles/forms.py:33 profiles/models.py:19
+msgid "Country"
+msgstr ""
+
+#: profiles/forms.py:34 profiles/models.py:20
+msgid "City"
+msgstr ""
+
+#: profiles/forms.py:37 profiles/models.py:25
+msgid "Bio"
+msgstr ""
+
+#: profiles/forms.py:38 profiles/models.py:26
+msgid "Photo"
+msgstr ""
+
+#: profiles/forms.py:39 profiles/models.py:28
+msgid "Height"
+msgstr ""
+
+#: profiles/forms.py:40 profiles/models.py:29
+msgid "Weight"
+msgstr ""
+
+#: profiles/forms.py:41 profiles/models.py:30
+msgid "Religion"
+msgstr ""
+
+#: profiles/forms.py:42 profiles/models.py:31
+msgid "Education"
+msgstr ""
+
+#: profiles/forms.py:43 profiles/models.py:32
+msgid "Occupation"
+msgstr ""
+
+#: profiles/forms.py:44 profiles/models.py:33
+msgid "Hobbies"
+msgstr ""
+
+#: profiles/forms.py:45 profiles/models.py:34
+msgid "Languages Spoken"
+msgstr ""
+
+#: profiles/forms.py:46 profiles/models.py:36
+msgid "Looking For"
+msgstr ""
+
+#: profiles/forms.py:47 profiles/models.py:37
+msgid "Goals in Relationship"
+msgstr ""
+
+#: profiles/forms.py:48 profiles/models.py:39
+msgid "Smoking"
+msgstr ""
+
+#: profiles/forms.py:49 profiles/models.py:40
+msgid "Drinking"
+msgstr ""
+
+#: profiles/forms.py:50 profiles/models.py:41
+msgid "Children"
+msgstr ""
+
+#: profiles/forms.py:51 profiles/models.py:42
+msgid "Willingness to have Children"
+msgstr ""
+
+#: profiles/forms.py:52 profiles/models.py:43
+msgid "Marital Status"
+msgstr ""
+
+#: profiles/forms.py:60 profiles/models.py:50
+msgid "Income Level"
+msgstr ""
+
+#: profiles/forms.py:61 profiles/models.py:51
+msgid "Housing Status"
+msgstr ""
+
+#: profiles/forms.py:62 profiles/models.py:52
+msgid "Car"
+msgstr ""
+
+#: profiles/forms.py:70 profiles/models.py:59
+msgid "Has Children"
+msgstr ""
+
+#: profiles/forms.py:71 profiles/models.py:60
+msgid "Education Level"
+msgstr ""
+
+#: profiles/models.py:10
+msgid "Groom"
+msgstr ""
+
+#: profiles/models.py:11
+msgid "Bride"
+msgstr ""
+
+#: profiles/models.py:22
+msgid ""
+"Phone number must be entered in the format: '+999999999'. Up to 15 digits "
+"allowed."
+msgstr ""
+
+#: profiles/views.py:30
+msgid "Your account has been created! You can now log in."
+msgstr ""
+
+#: profiles/views.py:54
+msgid "Your profile has been created!"
+msgstr ""
+
+#: profiles/views.py:72
+msgid "Your profile has been updated!"
+msgstr ""
+
+#: templates/communications/video_call_room.html:7
+msgid "Video Call Room"
+msgstr ""
+
+#: templates/communications/video_call_room.html:10
+msgid "Video Call"
+msgstr ""
+
+#: templates/navbar.html:4
+msgid "Marriage Agency"
+msgstr ""
+
+#: templates/navbar.html:8
+msgid "Tariff Plans"
+msgstr ""
+
+#: templates/navbar.html:11
+msgid "Additional Services"
+msgstr ""
+
+#: templates/navbar.html:17
+msgid "Profile"
+msgstr ""
+
+#: templates/navbar.html:20
+msgid "Logout"
+msgstr ""
+
+#: templates/navbar.html:24
+msgid "Login"
+msgstr ""
+
+#: templates/navbar.html:27 templates/profiles/register.html:7
+#: templates/profiles/register.html:13 templates/profiles/register.html:17
+msgid "Register"
+msgstr ""
+
+#: verification/forms.py:12
+msgid "Upload ID Document"
+msgstr ""
+
+#: verification/models.py:9
+msgid "ID Document"
+msgstr ""
+
+#: verification/models.py:10
+msgid "Verified"
+msgstr ""
+
+#: verification/models.py:11
+msgid "Verification Date"
+msgstr ""
+
+#: verification/views.py:22
+msgid "Your documents have been uploaded for verification."
+msgstr ""

@@ -1,0 +1,312 @@
+# НЕСКОЛЬКО ОПИСАТЕЛЬНЫХ ЗАГОЛОВКОВ.
+# Авторские права (C) ГОД ВЛАДЕЛЕЦ ПАКЕТА
+# Этот файл распространяется на тех же условиях, что и пакет PACKAGE.
+# ПЕРВЫЙ АВТОР <EMAIL@ADDRESS>, ГОД.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: VERSION ПАКЕТА\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-01 08:15+0900\n"
+"PO-Revision-Date: ГОД-МЕС-ДЕН ВРЕМЯ+ЧАСОВОЙ ПОЯС\n"
+"Last-Translator: ИМЯ ФАМИЛИЯ <EMAIL@ADDRESS>\n"
+"Language-Team: ЯЗЫК <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: communications/models.py:10
+msgid "Call ID"
+msgstr "ID звонка"
+
+#: communications/models.py:11
+msgid "Start Time"
+msgstr "Время начала"
+
+#: communications/models.py:12
+msgid "End Time"
+msgstr "Время окончания"
+
+#: communications/models.py:13
+msgid "Status"
+msgstr "Статус"
+
+#: communications/models.py:14
+msgid "Initiated"
+msgstr "Инициирован"
+
+#: communications/models.py:15
+msgid "Ongoing"
+msgstr "В процессе"
+
+#: communications/models.py:16
+msgid "Completed"
+msgstr "Завершен"
+
+#: communications/models.py:17
+msgid "Cancelled"
+msgstr "Отменен"
+
+#: communications/views.py:32
+msgid "You are not authorized to join this video call."
+msgstr "У вас нет доступа для присоединения к этому видеозвонку."
+
+#: messaging/forms.py:12
+msgid "Message"
+msgstr "Сообщение"
+
+#: messaging/forms.py:15
+msgid "Enter your message"
+msgstr "Введите ваше сообщение"
+
+#: messaging/models.py:10
+msgid "Message Text"
+msgstr "Текст сообщения"
+
+#: messaging/models.py:12
+msgid "Read"
+msgstr "Прочитано"
+
+#: messaging/views.py:26 messaging/views.py:47
+msgid "Your message has been sent!"
+msgstr "Ваше сообщение отправлено!"
+
+#: payments/models.py:19
+msgid "Plan Name"
+msgstr "Название плана"
+
+#: payments/models.py:20 payments/models.py:29
+msgid "Description"
+msgstr "Описание"
+
+#: payments/models.py:21 payments/models.py:30
+msgid "Price"
+msgstr "Цена"
+
+#: payments/models.py:22
+msgid "Duration (days)"
+msgstr "Продолжительность (дни)"
+
+#: payments/models.py:28
+msgid "Service Name"
+msgstr "Название услуги"
+
+#: payments/models.py:48
+msgid "Quantity"
+msgstr "Количество"
+
+#: payments/views.py:50
+msgid "Payment was successful!"
+msgstr "Платеж прошел успешно!"
+
+#: payments/views.py:55
+msgid "Payment was cancelled."
+msgstr "Платеж был отменен."
+
+#: payments/views.py:66
+msgid "Additional service purchased successfully!"
+msgstr "Дополнительная услуга успешно приобретена!"
+
+#: profiles/forms.py:10 profiles/forms.py:36 profiles/models.py:24
+msgid "Email"
+msgstr "Электронная почта"
+
+#: profiles/forms.py:11 profiles/forms.py:35 profiles/models.py:21
+msgid "Phone Number"
+msgstr "Номер телефона"
+
+#: profiles/forms.py:12 profiles/forms.py:29 profiles/models.py:15
+msgid "User Type"
+msgstr "Тип пользователя"
+
+#: profiles/forms.py:30 profiles/models.py:16
+msgid "First Name"
+msgstr "Имя"
+
+#: profiles/forms.py:31 profiles/models.py:17
+msgid "Last Name"
+msgstr "Фамилия"
+
+#: profiles/forms.py:32 profiles/models.py:18
+msgid "Date of Birth"
+msgstr "Дата рождения"
+
+#: profiles/forms.py:33 profiles/models.py:19
+msgid "Country"
+msgstr "Страна"
+
+#: profiles/forms.py:34 profiles/models.py:20
+msgid "City"
+msgstr "Город"
+
+#: profiles/forms.py:37 profiles/models.py:25
+msgid "Bio"
+msgstr "Биография"
+
+#: profiles/forms.py:38 profiles/models.py:26
+msgid "Photo"
+msgstr "Фотография"
+
+#: profiles/forms.py:39 profiles/models.py:28
+msgid "Height"
+msgstr "Рост"
+
+#: profiles/forms.py:40 profiles/models.py:29
+msgid "Weight"
+msgstr "Вес"
+
+#: profiles/forms.py:41 profiles/models.py:30
+msgid "Religion"
+msgstr "Религия"
+
+#: profiles/forms.py:42 profiles/models.py:31
+msgid "Education"
+msgstr "Образование"
+
+#: profiles/forms.py:43 profiles/models.py:32
+msgid "Occupation"
+msgstr "Профессия"
+
+#: profiles/forms.py:44 profiles/models.py:33
+msgid "Hobbies"
+msgstr "Хобби"
+
+#: profiles/forms.py:45 profiles/models.py:34
+msgid "Languages Spoken"
+msgstr "Языки"
+
+#: profiles/forms.py:46 profiles/models.py:36
+msgid "Looking For"
+msgstr "В поиске"
+
+#: profiles/forms.py:47 profiles/models.py:37
+msgid "Goals in Relationship"
+msgstr "Цели в отношениях"
+
+#: profiles/forms.py:48 profiles/models.py:39
+msgid "Smoking"
+msgstr "Курение"
+
+#: profiles/forms.py:49 profiles/models.py:40
+msgid "Drinking"
+msgstr "Алкоголь"
+
+#: profiles/forms.py:50 profiles/models.py:41
+msgid "Children"
+msgstr "Дети"
+
+#: profiles/forms.py:51 profiles/models.py:42
+msgid "Willingness to have Children"
+msgstr "Готовность иметь детей"
+
+#: profiles/forms.py:52 profiles/models.py:43
+msgid "Marital Status"
+msgstr "Семейное положение"
+
+#: profiles/forms.py:60 profiles/models.py:50
+msgid "Income Level"
+msgstr "Уровень дохода"
+
+#: profiles/forms.py:61 profiles/models.py:51
+msgid "Housing Status"
+msgstr "Статус жилья"
+
+#: profiles/forms.py:62 profiles/models.py:52
+msgid "Car"
+msgstr "Автомобиль"
+
+#: profiles/forms.py:70 profiles/models.py:59
+msgid "Has Children"
+msgstr "Есть дети"
+
+#: profiles/forms.py:71 profiles/models.py:60
+msgid "Education Level"
+msgstr "Уровень образования"
+
+#: profiles/models.py:10
+msgid "Groom"
+msgstr "Жених"
+
+#: profiles/models.py:11
+msgid "Bride"
+msgstr "Невеста"
+
+#: profiles/models.py:22
+msgid ""
+"Phone number must be entered in the format: '+999999999'. Up to 15 digits "
+"allowed."
+msgstr "Номер телефона должен быть введен в формате: '+999999999'. Допускается до 15 цифр."
+
+#: profiles/views.py:30
+msgid "Your account has been created! You can now log in."
+msgstr "Ваш аккаунт был создан! Теперь вы можете войти."
+
+#: profiles/views.py:54
+msgid "Your profile has been created!"
+msgstr "Ваш профиль был создан!"
+
+#: profiles/views.py:72
+msgid "Your profile has been updated!"
+msgstr "Ваш профиль был обновлен!"
+
+#: templates/communications/video_call_room.html:7
+msgid "Video Call Room"
+msgstr "Комната видеозвонка"
+
+#: templates/communications/video_call_room.html:10
+msgid "Video Call"
+msgstr "Видеозвонок"
+
+#: templates/navbar.html:4
+msgid "Marriage Agency"
+msgstr "Брачное агентство"
+
+#: templates/navbar.html:8
+msgid "Tariff Plans"
+msgstr "Тарифные планы"
+
+#: templates/navbar.html:11
+msgid "Additional Services"
+msgstr "Дополнительные услуги"
+
+#: templates/navbar.html:17
+msgid "Profile"
+msgstr "Профиль"
+
+#: templates/navbar.html:20
+msgid "Logout"
+msgstr "Выход"
+
+#: templates/navbar.html:24
+msgid "Login"
+msgstr "Вход"
+
+#: templates/navbar.html:27 templates/profiles/register.html:7
+#: templates/profiles/register.html:13 templates/profiles/register.html:17
+msgid "Register"
+msgstr "Регистрация"
+
+#: verification/forms.py:12
+msgid "Upload ID Document"
+msgstr "Загрузить документ, удостоверяющий личность"
+
+#: verification/models.py:9
+msgid "ID Document"
+msgstr "Документ, удостоверяющий личность"
+
+#: verification/models.py:10
+msgid "Verified"
+msgstr "Подтверждено"
+
+#: verification/models.py:11
+msgid "Verification Date"
+msgstr "Дата верификации"
+
+#: verification/views.py:22
+msgid "Your documents have been uploaded for verification."
+msgstr "Ваши документы были загружены для проверки."

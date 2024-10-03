@@ -1,0 +1,43 @@
+{% load static %}
+{% load i18n %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Marriage Agency{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'assets/css/styles.min.css' %}">
+</head>
+<body>
+    <!-- Navbar будет инклюдом -->
+    {% include 'navbar.html' %}
+    {% include 'styles_include.html' %}
+    <main>
+        <div id="bio-content" style="width: 1280px; height: 700px; overflow-y: auto;" align="center" background="{% static 'assets/img/IINET-1.png' %}">
+            <div class="gallery " background="color: black">
+                <div class="avatar" style="--img:url({% static '/assets/img/36.jpg' %});" title="Jane Richmond"></div>
+                <div class="avatar" style="--img:url({% static '/assets/img/55.jpg' %});" title="Gordon Smith"></div>
+                <div class="avatar" style="--img:url({% static '/assets/img/14.jpg' %});" title="Harris Jackson"></div>
+                <div class="avatar" style="--img:url({% static '/assets/img/15.jpg' %});" title="Dave Rogers"></div>
+                <div class="avatar" style="--img:url({% static '/assets/img/16.jpg' %});" title="Naria López"></div>
+                <div class="avatar" style="--img:url({% static '/assets/img/17.jpg' %});" title="imon Martins"></div>
+                <div class="avatar" style="--img:url({% static '/assets/img/18.jpg' %});" title="Bob Raymond"></div>
+                <div class="avatar" style="--img:url({% static '/assets/img/19.jpg' %});" title="Sarah Durst"></div>
+                <div class="avatar" style="--img:url({% static '/assets/img/45.jpg' %});" title="Elizabeth Riches"></div>
+                <div class="avatar" style="--img:url({% static '/assets/img/54.jpg' %});" title="Angel Dimi"></div>
+                <div class="avatar" style="--img:url({% static '/assets/img/49.jpg' %});" title="Sally Broadman"></div>
+                <div class="avatar" style="--img:url({% static '/assets/img/8.jpg' %});" title="Phil Davis"></div>
+                <div class="avatar" style="--img:url({% static '/assets/img/9.jpg' %});" title="Joleen Hampton"></div>
+                <div class="avatar" style="--img:url({% static '/assets/img/7.jpg' %});" title="Roger Fields"></div>
+                
+                
+        </div>
+        </div>
+       </main>
+
+<div class="container-fluid">
+    {% include 'footer.html' %}
+</div>
+
+   </body>
+</html>

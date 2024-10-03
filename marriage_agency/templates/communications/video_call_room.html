@@ -1,0 +1,13 @@
+<!-- communications/templates/communications/video_call_room.html -->
+{% load i18n %}
+<!DOCTYPE html>
+<html lang="{{ LANGUAGE_CODE }}">
+<head>
+    <meta charset="UTF-8">
+    <title>{% trans "Video Call Room" %}</title>
+</head>
+<body>
+    <h1>{% trans "Video Call" %}</h1>
+    <iframe src="{{ jitsi_url }}" style="width: 100%; height: 600px; border:0;" allow="camera; microphone; fullscreen; display-capture"></iframe>
+</body>
+</html>

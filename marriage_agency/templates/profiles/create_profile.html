@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% load i18n %} 
+ {% include 'styles_include.html' %}
+{% block content %}
+    <h2>{% blocktrans %}Create Your Profile{% endblocktrans %}</h2>
+    <form method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" class="btn btn-primary">{% blocktrans %}Save Profile{% endblocktrans %}</button>
+    </form>
+{% endblock %}

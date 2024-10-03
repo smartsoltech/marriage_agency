@@ -1,0 +1,13 @@
+{% load i18n %}
+<form action="{% url 'payment' %}" method="POST">
+    {% csrf_token %}
+    <script
+        src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+        data-key="{{ stripe_publishable_key }}"
+        data-amount="5000"
+        data-name="Your Site Name"
+        data-description="50.00 USD"
+        data-currency="usd"
+        data-locale="auto">
+    </script>
+</form>

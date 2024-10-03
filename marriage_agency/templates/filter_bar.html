@@ -1,0 +1,58 @@
+{% load static i18n %}
+<form method="GET" action="" class="d-flex justify-content-around align-items-center my-4">
+    <div class="form-group">
+        <label for="user_type">{% trans "User Type" %}</label>
+        <select name="user_type" class="form-control">
+            <option value="">{% trans "Any" %}</option>
+            <option value="groom">{% trans "Groom" %}</option>
+            <option value="bride">{% trans "Bride" %}</option>
+        </select>
+    </div>
+    
+    <div class="form-group">
+        <label for="country">{% trans "Country" %}</label>
+        <input type="text" name="country" class="form-control" placeholder="{% trans 'Country' %}">
+    </div>
+
+    <div class="form-group">
+        <label for="city">{% trans "City" %}</label>
+        <input type="text" name="city" class="form-control" placeholder="{% trans 'City' %}">
+    </div>
+
+    <div class="form-group">
+        <label for="height">{% trans "Min Height" %}</label>
+        <input type="number" name="min_height" class="form-control" step="0.01" placeholder="{% trans 'Min Height' %}">
+    </div>
+
+    <div class="form-group">
+        <label for="height">{% trans "Max Height" %}</label>
+        <input type="number" name="max_height" class="form-control" step="0.01" placeholder="{% trans 'Max Height' %}">
+    </div>
+
+    <div class="form-group">
+        <label for="smoking">{% trans "Smoking" %}</label>
+        <select name="smoking" class="form-control">
+            <option value="">{% trans "Any" %}</option>
+            <option value="true">{% trans "Yes" %}</option>
+            <option value="false">{% trans "No" %}</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="children">{% trans "Children" %}</label>
+        <select name="children" class="form-control">
+            <option value="">{% trans "Any" %}</option>
+            <option value="true">{% trans "Yes" %}</option>
+            <option value="false">{% trans "No" %}</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="education">{% trans "Education" %}</label>
+        <input type="text" name="education" class="form-control" placeholder="{% trans 'Education' %}">
+    </div>
+
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">{% trans "Filter" %}</button>
+    </div>
+</form>

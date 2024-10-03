@@ -1,0 +1,119 @@
+{% extends 'base.html' %}
+{% load static i18n %}
+
+{% block content %}
+<div class="container mt-4">
+    <div class="card">
+        <div class="card-header">
+            <h2>{% blocktrans %}Profile Details{% endblocktrans %}</h2>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-3">
+                    {% if profile.photo %}
+                        <img src="{{ profile.photo.url }}" class="img-fluid rounded" alt="{% trans 'Profile Photo' %}">
+                    {% else %}
+                        <img src="{% static 'assets/img/default-profile.png' %}" class="img-fluid rounded" alt="{% trans 'Default Profile Photo' %}">
+                    {% endif %}
+                </div>
+                <div class="col-md-9">
+                    <table class="table table-bordered">
+                        <tbody>
+                            <tr>
+                                <th>{% trans 'First Name' %}</th>
+                                <td>{{ profile.first_name }}</td>
+                            </tr>
+                            <tr>
+                                <th>{% trans 'Last Name' %}</th>
+                                <td>{{ profile.last_name }}</td>
+                            </tr>
+                            <tr>
+                                <th>{% trans 'Email' %}</th>
+                                <td>{{ profile.email }}</td>
+                            </tr>
+                            <tr>
+                                <th>{% trans 'Date of Birth' %}</th>
+                                <td>{{ profile.date_of_birth }}</td>
+                            </tr>
+                            <tr>
+                                <th>{% trans 'Country' %}</th>
+                                <td>{{ profile.country }}</td>
+                            </tr>
+                            <tr>
+                                <th>{% trans 'City' %}</th>
+                                <td>{{ profile.city }}</td>
+                            </tr>
+                            <tr>
+                                <th>{% trans 'Phone Number' %}</th>
+                                <td>{{ profile.phone_number }}</td>
+                            </tr>
+                            <tr>
+                                <th>{% trans 'Bio' %}</th>
+                                <td>{{ profile.bio }}</td>
+                            </tr>
+                            <tr>
+                                <th>{% trans 'Height' %}</th>
+                                <td>{{ profile.height }}</td>
+                            </tr>
+                            <tr>
+                                <th>{% trans 'Weight' %}</th>
+                                <td>{{ profile.weight }}</td>
+                            </tr>
+                            <tr>
+                                <th>{% trans 'Religion' %}</th>
+                                <td>{{ profile.religion }}</td>
+                            </tr>
+                            <tr>
+                                <th>{% trans 'Education' %}</th>
+                                <td>{{ profile.education }}</td>
+                            </tr>
+                            <tr>
+                                <th>{% trans 'Occupation' %}</th>
+                                <td>{{ profile.occupation }}</td>
+                            </tr>
+                            <tr>
+                                <th>{% trans 'Hobbies' %}</th>
+                                <td>{{ profile.hobbies }}</td>
+                            </tr>
+                            <tr>
+                                <th>{% trans 'Languages Spoken' %}</th>
+                                <td>{{ profile.languages_spoken }}</td>
+                            </tr>
+                            <tr>
+                                <th>{% trans 'Looking For' %}</th>
+                                <td>{{ profile.looking_for }}</td>
+                            </tr>
+                            <tr>
+                                <th>{% trans 'Goals in Relationship' %}</th>
+                                <td>{{ profile.goals_in_relationship }}</td>
+                            </tr>
+                            <tr>
+                                <th>{% trans 'Smoking' %}</th>
+                                <td>{{ profile.smoking|yesno:_('Yes,No') }}</td>
+                            </tr>
+                            <tr>
+                                <th>{% trans 'Drinking' %}</th>
+                                <td>{{ profile.drinking|yesno:_('Yes,No') }}</td>
+                            </tr>
+                            <tr>
+                                <th>{% trans 'Children' %}</th>
+                                <td>{{ profile.children|yesno:_('Yes,No') }}</td>
+                            </tr>
+                            <tr>
+                                <th>{% trans 'Willingness to Have Children' %}</th>
+                                <td>{{ profile.willingness_to_have_children|yesno:_('Yes,No') }}</td>
+                            </tr>
+                            <tr>
+                                <th>{% trans 'Marital Status' %}</th>
+                                <td>{{ profile.marital_status }}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <a href="{% url 'edit_profile' %}" class="btn btn-primary">{% trans 'Edit Profile' %}</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
